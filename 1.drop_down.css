@@ -1,0 +1,27 @@
+.dropdown{
+    display: inline-block;
+    border: 1px solid gray;
+}
+
+button{
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(236, 252, 90);
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.menu{
+    display: none;
+}
+
+.menu a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .menu{
+    display: block;
+}

@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.gridcontainer{
+    max-width: 90%;
+    display: grid;
+    margin: auto;
+    height: 100%;
+}
+
+nav{
+    margin: auto;
+    width: 100%;
+}
+
+.flexcontainer{
+    list-style: none;
+    border-radius: 10px;
+    background-color:crimson;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.flexcontainer li div{
+    cursor: pointer;
+}
+
+.faq{
+    margin: auto;
+    width: 80%;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.accordian{
+    font-size: 18px;
+}
+
+.question, .answer{
+    background-color: #303030;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+}
+
+.question{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.answer{
+    display: none;
+    padding: 20px;
+}
+
+.question.active{
+    background-color: crimson;
+}
+
+.newsletter{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.newsletter .mail{
+    display: flex;
+}
+
+.newsletter .send{
+    background-color: crimson;
+    cursor: pointer;
+    color: aliceblue;
+    outline: none;
+}
+
+.newsletter .send:hover{
+    color: rgb(53, 164, 179);
+}
+
+footer{
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+footer .icon{
+    margin: 10px;
+    cursor: pointer;
+}
